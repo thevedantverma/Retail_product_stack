@@ -70,6 +70,11 @@ streamlit run streamlit_app.py
 
 ---
 
+## Deployment Approach
+You can see "resulto" and "resulto2" jpg to view the results
+
+
+---
 ## Project Structure
 
 detector/  
