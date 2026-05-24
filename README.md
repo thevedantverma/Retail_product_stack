@@ -70,7 +70,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## Deployment Approach
+## RESULTS
 You can see "resulto" and "resulto2" jpg to view the results
 
 
