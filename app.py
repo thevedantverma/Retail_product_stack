@@ -1,8 +1,9 @@
+import os
+os.environ["OPENCV_IO_ENABLE_OPENEXR"]="1"
 import streamlit as st
 import cv2
 import numpy as np
 import tempfile
-
 from detector.detector import detect_products
 from embeddings.embedder import get_embedding
 from grouping.cluster import cluster_products
