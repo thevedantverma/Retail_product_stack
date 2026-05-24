@@ -28,11 +28,11 @@ AI-powered retail shelf product detection and grouping system using YOLOv8, CLIP
 ## Project Pipeline
 
 Shelf Image  
-→ Product Detection  
-→ Product Cropping  
-→ Embedding Generation  
-→ Product Clustering  
-→ Visualization
+> Product Detection  
+> Product Cropping  
+> Embedding Generation  
+> Product Clustering  
+> Visualization
 
 ---
 
