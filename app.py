@@ -7,8 +7,8 @@ from detector.detector import detect_products
 from embeddings.embedder import get_embedding
 from grouping.cluster import cluster_products
 from visualization.draw import draw_boxes
-st.write("APP STARTED")
-st.title("Retail Product Grouping")
+
+st.title("Retail Product Shelf Grouping")
 
 uploaded_file = st.file_uploader(
     "Upload Shelf Image",
@@ -17,6 +17,7 @@ uploaded_file = st.file_uploader(
 
 if uploaded_file is not None:
 
+    if st.button("GO!!!"):
     temp_file = tempfile.NamedTemporaryFile(
         delete=False,
         suffix=".jpg"
