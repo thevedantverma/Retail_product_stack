@@ -84,4 +84,4 @@ train.py
 
 ## Author
 
-Vedant Verma
+Vedant Verma 🚀 
